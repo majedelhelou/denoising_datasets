@@ -1,2 +1,22 @@
-# denoising_datasets
-Benchmark datasets for image denoising methods
+# Image Denoising Datasets
+## _Common benchmarks for image denoising_
+
+✨Disclaimer✨ These datasets are just collected here for convenience, no ownership claimed and no guarantees provided.
+
+The color versions are preceded by **C** in the folder name. Sorted by increasing size:
+
+- Set5
+- Set14
+- BSD68
+- Sun_Hays80
+- Urban100
+- Manga109
+
+
+## _Real microscopy denoising dataset_
+
+We also developed our own dataset for real (fluorescence) widefield microscopy denoising. Published in ECCVW 2020. It also contains data for super-resolution, with structured illumination ground-truth.
+
+It contains 144,000 images: **360 sets** each comprising **400 repeated captures** (4 times larger than the most recent prior work). Averaging 1, 2, 4, 8, or 16 captures gives images with varying noise levels, and the ground-truth is obtained by averaging the 400 captures.
+
+That dataset can be found [-> here <-](https://github.com/IVRL/w2s).
