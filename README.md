@@ -15,7 +15,7 @@ The color versions are preceded by **C** in the folder name. Sorted by increasin
 
 ## _Real microscopy denoising dataset_
 
-We also developed our own dataset for real (fluorescence) widefield microscopy denoising. Published in ECCVW 2020. It also contains data for super-resolution, with structured illumination ground-truth.
+We collected dataset for real (fluorescence) widefield microscopy denoising, published in ECCV 2020 BioImage Computing (BIC) Workshop. It also contains data for super-resolution, with structured illumination ground-truth. It can thus be used for the joint image denoising and SR task.
 
 It contains 144,000 images: **360 sets** each comprising **400 repeated captures** (4 times larger than the most recent prior work). Averaging 1, 2, 4, 8, or 16 captures gives images with varying noise levels, and the ground-truth is obtained by averaging the 400 captures.
 
